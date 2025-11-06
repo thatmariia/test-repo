@@ -1,0 +1,48 @@
+CITATION.cff: "cff-version: 1.2.0\ntitle: prolfquapp\nversion: null\ntype: software\n\
+  repository: !!python/object:bridge.core.biotools.UrlftpType\n  __dict__:\n    root:\
+  \ https://github.com/prolfqua/prolfquapp\n  __pydantic_fields_set__: !!set\n   \
+  \ root: null\nidentifiers:\n- type: other\n  value: !!python/object:bridge.core.biotools.BiotoolsIdType\n\
+  \    __dict__:\n      root: prolfquapp\n    __pydantic_fields_set__: !!set\n   \
+  \   root: null\n  description: bio.tools\nlicense: !!python/object/apply:bridge.core.biotools.License\n\
+  - MIT\nkeywords:\n- !!python/object:bridge.core.biotools.TopicItem\n  __dict__:\n\
+  \    term: Proteomics\n    uri: http://edamontology.org/topic_0121\n  __pydantic_extra__:\
+  \ null\n  __pydantic_fields_set__: !!set\n    uri: null\n    term: null\n  __pydantic_private__:\
+  \ null\nabstract: A command-line tool for differential expression analysis in quantitative\n\
+  \  proteomics\nmessage: If you use this software, please cite it and the Primary\
+  \ publications below.\npreferred-citation: &id001 !!python/object:bridge.core.publication.Publication\n\
+  \  __dict__:\n    doi: 10.1021/acs.jproteome.4c00911\n    title: \"&lt;i&gt;prolfquapp&lt;/i&gt;\
+  \ \\u2500 A User-Friendly Command-Line Tool\\\n      \\ Simplifying Differential\
+  \ Expression Analysis in Quantitative Proteomics.\"\n    authors:\n    - !!python/object:bridge.core.publication.Author\n\
+  \      __dict__:\n        first_name: Witold E\n        last_name: Wolski\n    \
+  \    name: null\n      __pydantic_extra__: null\n      __pydantic_fields_set__:\
+  \ !!set\n        last_name: null\n        first_name: null\n      __pydantic_private__:\
+  \ null\n    - !!python/object:bridge.core.publication.Author\n      __dict__:\n\
+  \        first_name: Jonas\n        last_name: Grossmann\n        name: null\n \
+  \     __pydantic_extra__: null\n      __pydantic_fields_set__: !!set\n        last_name:\
+  \ null\n        first_name: null\n      __pydantic_private__: null\n    - !!python/object:bridge.core.publication.Author\n\
+  \      __dict__:\n        first_name: Leonardo\n        last_name: Schwarz\n   \
+  \     name: null\n      __pydantic_extra__: null\n      __pydantic_fields_set__:\
+  \ !!set\n        last_name: null\n        first_name: null\n      __pydantic_private__:\
+  \ null\n    - !!python/object:bridge.core.publication.Author\n      __dict__:\n\
+  \        first_name: Peter\n        last_name: Leary\n        name: null\n     \
+  \ __pydantic_extra__: null\n      __pydantic_fields_set__: !!set\n        last_name:\
+  \ null\n        first_name: null\n      __pydantic_private__: null\n    - !!python/object:bridge.core.publication.Author\n\
+  \      __dict__:\n        first_name: Can\n        last_name: \"T\\xFCrker\"\n \
+  \       name: null\n      __pydantic_extra__: null\n      __pydantic_fields_set__:\
+  \ !!set\n        last_name: null\n        first_name: null\n      __pydantic_private__:\
+  \ null\n    - !!python/object:bridge.core.publication.Author\n      __dict__:\n\
+  \        first_name: Paolo\n        last_name: Nanni\n        name: null\n     \
+  \ __pydantic_extra__: null\n      __pydantic_fields_set__: !!set\n        last_name:\
+  \ null\n        first_name: null\n      __pydantic_private__: null\n    - !!python/object:bridge.core.publication.Author\n\
+  \      __dict__:\n        first_name: Ralph\n        last_name: Schlapbach\n   \
+  \     name: null\n      __pydantic_extra__: null\n      __pydantic_fields_set__:\
+  \ !!set\n        last_name: null\n        first_name: null\n      __pydantic_private__:\
+  \ null\n    - !!python/object:bridge.core.publication.Author\n      __dict__:\n\
+  \        first_name: Christian\n        last_name: Panse\n        name: null\n \
+  \     __pydantic_extra__: null\n      __pydantic_fields_set__: !!set\n        last_name:\
+  \ null\n        first_name: null\n      __pydantic_private__: null\n    year: 2025\n\
+  \    journal: null\n    volume: null\n    issue: null\n    page_start: 955\n   \
+  \ page_end: 965\n    pub_type: article\n  __pydantic_extra__: null\n  __pydantic_fields_set__:\
+  \ !!set\n    volume: null\n    year: null\n    journal: null\n    title: null\n\
+  \    issue: null\n    page_end: null\n    page_start: null\n    authors: null\n\
+  \    doi: null\n  __pydantic_private__: null\nreferences:\n- *id001\n"
