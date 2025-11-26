@@ -1,2 +1,5 @@
-# test-repo
-test-repo
+{{ TITLE }}
+
+{{ BADGES }}
+
+{{ CONTENT }}
