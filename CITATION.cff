@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+title: prolfquapp
+version: null
+type: software
+repository: https://github.com/prolfqua/prolfquapp
+identifiers:
+- type: other
+  value: prolfquapp
+  description: bio.tools
+license: MIT
+keywords:
+- term: Proteomics
+  uri: http://edamontology.org/topic_0121
+abstract: A command-line tool for differential expression analysis in quantitative
+  proteomics
+message: If you use this software, please cite it and the Primary publications below.
+preferred-citation:
+  doi: 10.1021/acs.jproteome.4c00911
+  title: prolfquapp - A User-Friendly Command-Line Tool Simplifying Differential Expression
+    Analysis in Quantitative Proteomics.
+  authors:
+  - first_name: Witold E
+    last_name: Wolski
+  - first_name: Jonas
+    last_name: Grossmann
+  - first_name: Leonardo
+    last_name: Schwarz
+  - first_name: Peter
+    last_name: Leary
+  - first_name: Can
+    last_name: Türker
+  - first_name: Paolo
+    last_name: Nanni
+  - first_name: Ralph
+    last_name: Schlapbach
+  - first_name: Christian
+    last_name: Panse
+  year: 2025
+  page_start: 955
+  page_end: 965
+  pub_type: article
+references:
+- doi: 10.1021/acs.jproteome.4c00911
+  title: prolfquapp - A User-Friendly Command-Line Tool Simplifying Differential Expression
+    Analysis in Quantitative Proteomics.
+  authors:
+  - first_name: Witold E
+    last_name: Wolski
+  - first_name: Jonas
+    last_name: Grossmann
+  - first_name: Leonardo
+    last_name: Schwarz
+  - first_name: Peter
+    last_name: Leary
+  - first_name: Can
+    last_name: Türker
+  - first_name: Paolo
+    last_name: Nanni
+  - first_name: Ralph
+    last_name: Schlapbach
+  - first_name: Christian
+    last_name: Panse
+  year: 2025
+  page_start: 955
+  page_end: 965
+  pub_type: article
