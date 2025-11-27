@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: Lethe DICOM Anonymizer
+version: null
+type: software
+repository: https://harbor.eucaim.cancerimage.eu/harbor/projects/3/repositories/lethe-dicom-anonymizer/info-tab
+identifiers:
+- type: other
+  value: lethe_dicom_anonymizer
+  description: bio.tools
+license: EUPL-1.1
+keywords:
+- term: Medical imaging
+  uri: http://edamontology.org/topic_3384
+- term: Data protection
+  uri: http://edamontology.org/topic_4044
+- term: FAIR data
+  uri: http://edamontology.org/topic_4012
+abstract: meow meow
+message: If you use this software, please cite it using this CITATION.cff.
