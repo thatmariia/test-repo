@@ -4,3 +4,6 @@ authors:
   given-names: "YOUR_NAME_HERE"
   orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "test-repo"
+preferred-citation:
+  doi: 10.1021/testdoi
+  title: test-repo
