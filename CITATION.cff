@@ -1,0 +1,81 @@
+cff-version: 1.2.0
+title: prolfquapp
+type: software
+repository: !!python/object:bridge.core.biotools.UrlftpType
+  __dict__:
+    root: https://github.com/prolfqua/prolfquapp
+  __pydantic_fields_set__: !!set
+    root: null
+identifiers:
+- type: other
+  value: !!python/object:bridge.core.biotools.BiotoolsIdType
+    __dict__:
+      root: prolfquapp
+    __pydantic_fields_set__: !!set
+      root: null
+  description: bio.tools
+license: !!python/object/apply:bridge.core.biotools.License
+- MIT
+keywords:
+- !!python/object:bridge.core.biotools.TopicItem
+  __dict__:
+    term: Proteomics
+    uri: http://edamontology.org/topic_0121
+  __pydantic_extra__: null
+  __pydantic_fields_set__: !!set
+    term: null
+    uri: null
+  __pydantic_private__: null
+abstract: A command-line tool for differential expression analysis in quantitative
+  proteomics
+message: If you use this software, please cite it and the Primary publications below.
+references:
+- doi: 10.1021/acs.jproteome.4c00911
+  title: prolfquapp - A User-Friendly Command-Line Tool Simplifying Differential Expression
+    Analysis in Quantitative Proteomics.
+  authors:
+  - first_name: Witold E
+    last_name: Wolski
+  - first_name: Jonas
+    last_name: Grossmann
+  - first_name: Leonardo
+    last_name: Schwarz
+  - first_name: Peter
+    last_name: Leary
+  - first_name: Can
+    last_name: Türker
+  - first_name: Paolo
+    last_name: Nanni
+  - first_name: Ralph
+    last_name: Schlapbach
+  - first_name: Christian
+    last_name: Panse
+  year: 2025
+  page_start: 955
+  page_end: 965
+  pub_type: article
+preferred-citation:
+  doi: 10.1021/acs.jproteome.4c00911
+  title: prolfquapp - A User-Friendly Command-Line Tool Simplifying Differential Expression
+    Analysis in Quantitative Proteomics.
+  authors:
+  - first_name: Witold E
+    last_name: Wolski
+  - first_name: Jonas
+    last_name: Grossmann
+  - first_name: Leonardo
+    last_name: Schwarz
+  - first_name: Peter
+    last_name: Leary
+  - first_name: Can
+    last_name: Türker
+  - first_name: Paolo
+    last_name: Nanni
+  - first_name: Ralph
+    last_name: Schlapbach
+  - first_name: Christian
+    last_name: Panse
+  year: 2025
+  page_start: 955
+  page_end: 965
+  pub_type: article
