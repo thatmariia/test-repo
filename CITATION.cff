@@ -5,5 +5,6 @@ authors:
   orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "test-repo"
 preferred-citation:
+  type: article
   doi: 10.1021/testdoi
   title: test-repo
