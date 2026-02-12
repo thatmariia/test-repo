@@ -4,4 +4,82 @@
 
 test-repo
 
+# Functions
+
+<details>
+<summary>Differential protein expression profiling</summary>
+
+```yaml
+# biotools-function
+operation:
+- term: Differential protein expression profiling
+  uri: http://edamontology.org/operation_3741
+input:
+- data:
+    term: Expression data
+    uri: http://edamontology.org/data_2603
+  format:
+  - term: CSV
+    uri: http://edamontology.org/format_3752
+  - term: TSV
+    uri: http://edamontology.org/format_3475
+- data:
+    term: Sequence
+    uri: http://edamontology.org/data_2044
+  format:
+  - term: FASTA
+    uri: http://edamontology.org/format_1929
+output:
+- data:
+    term: Expression data
+    uri: http://edamontology.org/data_2603
+  format:
+  - term: xlsx
+    uri: http://edamontology.org/format_3620
+  - term: HTML
+    uri: http://edamontology.org/format_2331
+cmd: './prolfqua_dea.sh -i data_dir/ -d annotation.xlsx -y config.yaml -w NameOfAnalysis
+  -s DIANN
+
+  # and again you run the version within the docker container with
+
+  # ./prolfquapp_docker.sh prolfqua_dea.sh -i data_dir/ -d annotation.xlsx -y config.yaml
+  -w NameOfAnalysis -s DIANN'
+
+```
+
+</details>
+
 ![Random](https://picsum.photos/800/600)
+
+
+PEW PEW PEW
+
+
+<details>
+<summary>Pew pew</summary>
+
+```yaml
+# biotools-function
+operation:
+- term: Validation
+  uri: http://edamontology.org/operation_2428
+input:
+- data:
+    term: Expression data
+    uri: http://edamontology.org/data_2603
+  format:
+  - term: xlsx
+    uri: http://edamontology.org/format_3620
+output:
+- data:
+    term: Quality control report
+    uri: http://edamontology.org/data_3914
+  format:
+  - term: HTML
+    uri: http://edamontology.org/format_2331
+
+```
+
+</details>
+
